@@ -1,0 +1,26 @@
+@import "../modules/variables"
+
+.progress
+  height: 50px
+  width: 100%
+  position: absolute
+  bottom: 0
+  left: 0
+  margin: 0
+  padding: 0
+
+.progress:after
+  box-shadow: inset 0 5px 10px #ccc
+  position: absolute
+  width: 100%
+  height: 10px
+
+.activity, .break
+  height: 100%
+  float: left
+
+.activity
+  background-color: $activity-color
+
+.break
+  background-color: $break-color

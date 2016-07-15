@@ -1,0 +1,33 @@
+doctype html
+html
+    head
+        link(href='css/skeleton.css', rel='stylesheet', type='text/css')
+        link(href='css/app.css', rel='stylesheet', type='text/css')
+    body
+        .header.row
+            #new-activity-btn.button Start new activity
+            #break-btn.button Make a break
+        .content.row
+            .activities.three.columns 1
+            .timer.six.columns
+                - onPause = true;
+                #circle
+
+                    if onPause
+                        #main-timer 12:34
+                        #pause-timer.active 03:18
+                        #play-btn
+                            img(src='images/play.gif')
+                    else
+                        #main-timer.active 12:34
+                        #pause-timer.disabled 00:00
+                        #play-btn
+                            img(src='images/pause.png')
+
+            .info.three.columns 1
+
+        .progress.row
+            .activity(style='width: 50px')
+            .break(style='width: 10px')
+            .activity(style='width: 50px')
+            .break(style='width: 10px')

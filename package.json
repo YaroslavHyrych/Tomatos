@@ -1,0 +1,24 @@
+{
+  "name": "tomatos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YaroslavHyrych/Tomatos.git"
+  },
+  "author": "Yaroslav Hyrych <yaroslavhyrych@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YaroslavHyrych/Tomatos/issues"
+  },
+  "homepage": "https://github.com/YaroslavHyrych/Tomatos#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-jade": "^1.1.0",
+    "gulp-sass": "^2.3.2"
+  }
+}
