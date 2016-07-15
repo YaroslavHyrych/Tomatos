@@ -8,8 +8,8 @@ html
             #new-activity-btn.button Start new activity
             #break-btn.button Make a break
         .content.row
-            .activities.three.columns 1
-            .timer.six.columns
+            .timer.twenty.columns
+                input(class='task-name', placeholder='Enter task name')
                 - onPause = true;
                 #circle
 
@@ -24,7 +24,8 @@ html
                         #play-btn
                             img(src='images/pause.png')
 
-            .info.three.columns 1
+            //.info.four.columns
+            //    textarea(class='task-description', placeholder='Enter task description')
 
         .progress.row
             .activity(style='width: 50px')
